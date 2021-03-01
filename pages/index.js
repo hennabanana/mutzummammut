@@ -14,7 +14,7 @@ export default function Home() {
         <div id={styles.container1} >
           <div id={styles.title}>
           <p>Das Kinderbuch</p>
-          <h1>Mut zum Mammut1</h1>
+          <h1>Mut zum Mammut</h1>
           </div>
           <div id={styles.imgContainer}>
             <Image
