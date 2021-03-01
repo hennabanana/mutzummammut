@@ -9,6 +9,7 @@ export default function Home() {
         <title>Mut zum Mammut</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/qvg1efb.css"></link>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <main>
@@ -18,23 +19,23 @@ export default function Home() {
           <h1>Mut zum Mammut</h1>
           </div>
           <div id={styles.imgContainer}>
-            <Image
+            <img
+              id={styles.titleimg}
               src="/intro.png"
               alt="ImageContainer"
               height="504"
               width="800"
             />
+            <img
+              id={styles.mammut}
+              src="/elefant.svg"
+              alt="Elefant"
+
+            />
           </div>
         </div>
         <div id={styles.container2} >
-          <div id={styles.elefant}>
-        <Image
-              src="/elefant.svg"
-              alt="Elefant"
-              height="300"
-              width="200"
-            />
-            </div>
+        <div className={styles.relativ} >
           <div id={styles.text}>
           <h3>Acht charmante Gedichte,</h3>
           <p>die mit einem Augenzwinkern die kleinen und größeren Themen des Lebens behandeln. 
@@ -44,14 +45,12 @@ export default function Home() {
             <h3>Ein Vorlesebuch für alle.</h3>
           <p>Insbesondere Kinder<br></br>zwischen 4 und 8 Jahren</p>
           </div>
-          <div id={styles.buchkaufen}>
-        <Image
+        <img
+        id={styles.buchkaufen}
               src="/buchkaufen.png"
               alt="Buch Kaufen"
-              height="300"
-              width="300"
             />
-            </div>
+          </div>
         </div>
         <div id={styles.container3}>
         <div id={styles.text}>
@@ -72,20 +71,17 @@ export default function Home() {
             <p>Nach Eingang deines Geldes senden wir dir dein Buch per Post zu.</p>
           </div>
         </div>
-        <div id={styles.loewe}>
-        <Image
+        <img
+              id={styles.loewe}
               src="/loewe.svg"
               alt="Loewe"
-              height="200"
-              width="200"
             />
-            </div>
         </div>
         <div id={styles.container4}>
           <h2>Die Macherinnen</h2>
           <div className={styles.row}>
           <div className={styles.item}>
-          <Image
+          <img
               src="/buchkaufen.png"
               alt="Buch Kaufen"
               height="300"
@@ -94,7 +90,7 @@ export default function Home() {
           <p>Fiona</p>
           </div>
           <div className={styles.item}>
-          <Image
+          <img
               src="/buchkaufen.png"
               alt="Buch Kaufen"
               height="300"
@@ -103,7 +99,7 @@ export default function Home() {
           <p>Leonie</p>
           </div>
           <div className={styles.item}>
-          <Image
+          <img
               src="/buchkaufen.png"
               alt="Buch Kaufen"
               height="300"
@@ -115,19 +111,16 @@ export default function Home() {
         <div id={styles.text}>
           <h3>Lerne uns kennen und erfahre,</h3>
           <p>Lerne uns kennen und erfahre, wie unser Buch entstanden ist! Hier steht ein schöner Text über die Entstehung des Buches, wer wie was gemangt und getan hat, lroem ipsum et odlor. Jetzt kommt nur noch Quatsch: Nach Eingang deines Geldes senden wir dir dein Buch per Post zu. Mut zum Mammut: Acht charmante Gedichte, die mit einem Augenzwinkern die kleinen und größeren Themen des Lebens behandeln. Begleite die tierischen Protagonist*innen auf ihren wahnwitzigen Abenteuern. Mit Badewanne auf hoher See oder auf einen Abstecher in die Eiszeit. Mit großer Portion Witz, Herz und natürlich … Mut zum Mammut.</p>
-        </div>
-        <div id={styles.qualle}>
-        <Image
+          <img
+              id={styles.qualle}
               src="/qualle.svg"
               alt="Loewe"
-              height="400"
-              width="400"
             />
         </div>
         </div>
         <div id={styles.container5}>
         <div id={styles.minimues}>
-        <Image
+        <img
               src="/minimues.svg"
               alt="MiniMüs"
               height="200"
