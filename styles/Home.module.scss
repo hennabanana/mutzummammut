@@ -125,6 +125,7 @@
         margin-right: auto;
         margin-left: auto;
         position: relative;
+        height: 100%;
         h3{
             margin-left: 25px;
             margin-right: 25px;
@@ -146,12 +147,11 @@
 }
 
 #container5 {
-    min-height: 460px;
     background: $colorYellow 0% 0% no-repeat padding-box;
     padding-top: 50px;
 
     .row {
-        height: 100px;
+        height: 100%;
         margin: 0px 25px 0 25px;
 
     }
@@ -263,9 +263,6 @@
         #buchkaufen {
             bottom: -46%;
         }
-    }
-    #container5 {
-        min-height: 630px;
     }
 }
 @media (max-width: 330px) {

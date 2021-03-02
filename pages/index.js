@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
+import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home() {
@@ -45,11 +46,13 @@ export default function Home() {
             <h3>Ein Vorlesebuch für alle.</h3>
           <p>Insbesondere Kinder<br></br>zwischen 4 und 8 Jahren</p>
           </div>
+        <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße">
         <img
         id={styles.buchkaufen}
               src="/buchkaufen.png"
               alt="Buch Kaufen"
             />
+            </a>
           </div>
         </div>
         <div id={styles.container3}>
@@ -130,21 +133,26 @@ export default function Home() {
         </div>
         <div className={styles.row}>
         <div className={styles.item}>
-          <h2>Kontakt</h2>
+          <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße"><h2>Kontakt</h2></a>
         </div>
         <div className={styles.item}>
-          <h2>Instagram</h2>
+          <a href="https://instagram.com/mut_zum_mammut?igshid=wa8eacrsx2gn"><h2>Instagram</h2></a>
         </div>
         </div>
-        <div className={styles.row}  id={styles.footer}>
+        <div className={styles.row}  id={styles.footer}
+        >
         <div className={styles.item}>
           <p>© Minimüs 2021</p>
         </div>
         <div className={styles.item}>
-          <p>Impressum</p>
+        <Link href="/impressum">
+        <p>Impressum</p>
+        </Link>
         </div>
         <div className={styles.item}>
+        <Link href="/datenschutz">
           <p>Datenschutz</p>
+          </Link>
         </div>
         </div>
         </div>

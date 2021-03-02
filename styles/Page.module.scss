@@ -1,0 +1,59 @@
+@import 'constants.scss';
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+
+
+#container1 {
+    background: $colorGrey;
+    padding: 25px;
+    #title{
+        position: relative;
+        transform: translate(0%, 22%);
+        z-index: 1;
+
+        h1 {
+            position: relative;
+            max-width: 375px;
+            margin: auto;
+        } 
+        p {
+            margin: 0 auto 20px auto;
+        }
+    }
+
+    #content{
+        max-width: 1050px;
+        margin: auto;
+    }
+}
+#container5 {
+    background: $colorYellow 0% 0% no-repeat padding-box;
+    padding-top: 50px;
+
+    .row {
+        height: 100%;
+        margin: 0px 25px 0 25px;
+
+    }
+
+    #footer{
+        margin: 40px 25px 0 25px;
+    }
+
+    .item {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 60px;
+    }
+
+    #minimues {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
