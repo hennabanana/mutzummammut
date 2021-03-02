@@ -54,8 +54,17 @@ p {
   letter-spacing: 1px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   h1 {
     font: normal normal normal 80px/75px $textHeadline;
   }
+  h2 {
+    font: normal normal normal 40px/28px $textHeadline;
+  }
+  h3 {
+    font: normal normal normal 30px/28px $textFont;
+  }
+  p {
+    font: normal normal normal 18px/20px $textFont;
+  } 
 }

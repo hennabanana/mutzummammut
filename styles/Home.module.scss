@@ -57,7 +57,7 @@
     #text{
         max-width: 700px;
         padding-top: 10%;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
         margin-right: auto;
         margin-left: auto;
 
@@ -110,13 +110,14 @@
 }
 
 #container4 {
-    min-height: 1050px;
+    min-height: 1100px;
     background: $colorGrey 0% 0% no-repeat padding-box;
     padding-top: 50px;
 
     .item{
         margin-left: 25px;
         margin-right: 25px;
+        max-width: 300px;
     }
 
     #text {
@@ -145,12 +146,24 @@
 }
 
 #container5 {
-    min-height: 500px;
+    min-height: 460px;
     background: $colorYellow 0% 0% no-repeat padding-box;
     padding-top: 50px;
 
+    .row {
+        height: 100px;
+        margin: 0px 25px 0 25px;
+
+    }
+
+    #footer{
+        margin: 40px 25px 0 25px;
+    }
+
     .item {
-        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 60px;
     }
 
     #minimues {
@@ -161,35 +174,113 @@
 }
 
 @media (max-width: 1050px) {
+    #container1 {
+        min-height: 660px;
+        max-height: 680px;
+    }
+    #container2 {
+        min-height: 610px;
 
+        #buchkaufen {
+            bottom: -40%;
+        }
+    }
     #container3 {
         min-height: 800px;
     }
     #container4 {
-        min-height: 1400px;
+        min-height: 1600px;
     }
 }
 
 @media (max-width: 700px) {
     #container1 {
-        height: 530px;
+        min-height: 530px;
+        max-height: 560px;
+    }
+    #container2 {
+        min-height: 510px;
+
+        #buchkaufen {
+            bottom: -52%;
+        }
     }
     #container3 {
-        min-height: 1000px;
+        min-height: 830px;
     }
     #container4 {
         min-height: 1800px;
     }
 }
+@media (max-width: 600px) {
+    #container1 {
+        min-height: 490px;
+        max-height: 510px;
+    }
+    #container2 {
+        min-height: 550px;
+
+        #buchkaufen {
+            bottom: -55%;
+        }
+    }
+    #container4 {
+        min-height: 1900px;
+    }
+    #container5 {
+        min-height: 550px;
+    }
+}
 
 @media (max-width: 500px) {
     #container1 {
-        height: 450px;
+        min-height: 370px;
+        max-height: 450px;
+    }
+    #container2 {
+        min-height: 570px;
+
+        #buchkaufen {
+            bottom: -50%;
+        }
     }
     #container3 {
-        min-height: 1000px;
+        min-height: 900px;
     }
     #container4 {
-        min-height: 1950px;
+        min-height: 2000px;
+    }
+}
+
+@media (max-width: 410px) {
+    #container1 {
+        min-height: 310px;
+        max-height: 400px;
+    }
+    #container2 {
+        min-height: 650px;
+
+        #buchkaufen {
+            bottom: -46%;
+        }
+    }
+    #container5 {
+        min-height: 630px;
+    }
+}
+@media (max-width: 330px) {
+    #container1 {
+        min-height: 290px;
+        max-height: 350px;
+    }
+    #container2 {
+        min-height: 690px;
+
+        #buchkaufen {
+            bottom: -41%;
+        }
+    }
+    #container4 {
+        min-height: 2100px;
     }
 }

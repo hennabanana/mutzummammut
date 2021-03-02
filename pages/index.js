@@ -87,7 +87,7 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Fiona</p>
+          <p>Fiona<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
           <div className={styles.item}>
           <img
@@ -96,7 +96,7 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Leonie</p>
+          <p>Leonie<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
           <div className={styles.item}>
           <img
@@ -105,12 +105,13 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Sara-Lena</p>
+          <p>Sara-Lena<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
         </div>
         <div id={styles.text}>
           <h3>Lerne uns kennen und erfahre,</h3>
-          <p>Lerne uns kennen und erfahre, wie unser Buch entstanden ist! Hier steht ein schöner Text über die Entstehung des Buches, wer wie was gemangt und getan hat, lroem ipsum et odlor. Jetzt kommt nur noch Quatsch: Nach Eingang deines Geldes senden wir dir dein Buch per Post zu. Mut zum Mammut: Acht charmante Gedichte, die mit einem Augenzwinkern die kleinen und größeren Themen des Lebens behandeln. Begleite die tierischen Protagonist*innen auf ihren wahnwitzigen Abenteuern. Mit Badewanne auf hoher See oder auf einen Abstecher in die Eiszeit. Mit großer Portion Witz, Herz und natürlich … Mut zum Mammut.</p>
+          <p>Plötzlich Patentanten- und damit der Wunsch, ihren Job richtig gut zu machen. Fiona und Leonie, Freundinnen und langjährige Mitbewohnerinnen, verfassten die ersten Abenteuer von Edgar, Rallefuch und Rosalinde am WG-Küchentisch. Als leidenschaftliche Supporterin der ersten Stunde und passender Weise auch ausgebildeter Grafikdesignerin, fand sich mit Sari die ideale Ergänzung. 
+          Nach vielen Jahren in unseren Köpfen, können wir „Mut zum Mammut“ daher heute endlich auch in unseren Händen halten.</p>
           <img
               id={styles.qualle}
               src="/qualle.svg"
@@ -135,7 +136,7 @@ export default function Home() {
           <h2>Instagram</h2>
         </div>
         </div>
-        <div className={styles.row}>
+        <div className={styles.row}  id={styles.footer}>
         <div className={styles.item}>
           <p>© Minimüs 2021</p>
         </div>
