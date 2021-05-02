@@ -1,0 +1,20 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .text {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  

@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
+import 'react-slideshow-image/dist/styles.css'
+import Slide from "../components/slide";
 
 export default function Home() {
   return (
@@ -20,13 +22,18 @@ export default function Home() {
           <h1>Mut zum Mammut</h1>
           </div>
           <div id={styles.imgContainer}>
-            <img
+            {/* Slideshow */}
+            <Slide />
+
+
+
+            {/* <img
               id={styles.titleimg}
               src="/intro.png"
               alt="ImageContainer"
               height="504"
               width="800"
-            />
+            /> */}
             <img
               id={styles.mammut}
               src="/elefant.svg"
@@ -56,6 +63,7 @@ export default function Home() {
           </div>
         </div>
         <div id={styles.container3}>
+        <div id={styles.inner_container3}>
         <div id={styles.text}>
           <h2>DU HAST INTERESSE?</h2>
           <p>So kommst du an ein Buch … oder zwei oder drei!</p>
@@ -63,7 +71,7 @@ export default function Home() {
           <div className={styles.row}>
           <div className={styles.item}>
             <h2>1</h2>
-            <p>Nimm Kontakt mit uns auf und schreibe uns eine E-Mail. Einfach hier klicken!</p>
+            <p>Nimm Kontakt mit uns auf und schreibe uns eine E-Mail. Einfach <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße">hier</a> klicken!</p>
           </div>
           <div className={styles.item}>
           <h2>2</h2>
@@ -80,6 +88,7 @@ export default function Home() {
               alt="Loewe"
             />
         </div>
+        </div>
         <div id={styles.container4}>
           <h2>Die Macherinnen</h2>
           <div className={styles.row}>
@@ -90,7 +99,7 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Fiona<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
+          <p><b>Fiona</b><br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
           <div className={styles.item}>
           <img
@@ -99,7 +108,7 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Leonie<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
+          <p><b>Leonie</b><br></br> arbeitet als Bildungsreferentin und ist Fan von Popkultur, Postkarten schreiben und aalglatten Alliterationen.</p>
           </div>
           <div className={styles.item}>
           <img
@@ -108,13 +117,13 @@ export default function Home() {
               height="300"
               width="300"
             />
-          <p>Sara-Lena<br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
+          <p><b>Sara-Lena</b><br></br> erarbeitet als Art Direktorin mit Illustratoren Magazine und andere schöne Drucksachen. Mut zum Mammut hat ihren Mut zu eigenen Illustrationen entfacht. </p>
           </div>
         </div>
         <div id={styles.text}>
-          <h3>Lerne uns kennen und erfahre,</h3>
-          <p>Plötzlich Patentanten- und damit der Wunsch, ihren Job richtig gut zu machen. Fiona und Leonie, Freundinnen und langjährige Mitbewohnerinnen, verfassten die ersten Abenteuer von Edgar, Rallefuch und Rosalinde am WG-Küchentisch. Als leidenschaftliche Supporterin der ersten Stunde und passender Weise auch ausgebildeter Grafikdesignerin, fand sich mit Sari die ideale Ergänzung. 
-          Nach vielen Jahren in unseren Köpfen, können wir „Mut zum Mammut“ daher heute endlich auch in unseren Händen halten.</p>
+          <h3>Plötzlich Patentanten –</h3>
+          <p>und damit der Wunsch, ihren Job richtig gut zu machen. Fiona und Leonie, Freundinnen und langjährige Mitbewohnerinnen, verfassten die ersten Abenteuer von Edgar, Rallefuch und Rosalinde für ihre Patenkinder am WG-Küchentisch. 
+Als leidenschaftliche Supporterin der ersten Stunde und passender Weise auch ausgebildeter Grafikdesignerin, fand sich mit Sara-Lena die ideale Ergänzung. Die tierisch poetischen Geschichten mehrten sich und bekamen Farben und Gesichter. Nach vielen Jahren in unseren Köpfen, können wir „Mut zum Mammut“ daher heute endlich auch in unseren Händen halten.</p>
           <img
               id={styles.qualle}
               src="/qualle.svg"
@@ -136,7 +145,7 @@ export default function Home() {
           <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße"><h2>Kontakt</h2></a>
         </div>
         <div className={styles.item}>
-          <a href="https://instagram.com/mut_zum_mammut?igshid=wa8eacrsx2gn"><h2>Instagram</h2></a>
+          <a href="https://instagram.com/mut_zum_mammut?igshid=wa8eacrsx2gn" target="_blank" rel="noopener noreferrer"><h2>Instagram</h2></a>
         </div>
         </div>
         <div className={styles.row}  id={styles.footer}
@@ -148,11 +157,6 @@ export default function Home() {
         <Link href="/impressum">
         <p>Impressum</p>
         </Link>
-        </div>
-        <div className={styles.item}>
-        <Link href="/datenschutz">
-          <p>Datenschutz</p>
-          </Link>
         </div>
         </div>
         </div>

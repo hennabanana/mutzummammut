@@ -7,10 +7,24 @@
 }
 
 
-
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  } 
 #container1 {
     background: $colorGrey;
     max-height: 700px;
+    padding-bottom: 20px;
     #title{
         position: relative;
         transform: translate(0%, 22%);
@@ -63,8 +77,9 @@
 
         h3{
             margin-top: 0;
-            margin-left: 25px;
-            margin-right: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 350px;
         }
         p {
             margin-left: 25px;
@@ -88,31 +103,36 @@
     max-width: 1440px;
     margin: auto;
     
-
-    h2 {
-        margin-bottom: 15px;
-    }  
-
-    .item {
-        max-width: 300px;
-        margin-left: 25px;
-        margin-right: 25px;
+    #inner_container3 {
+        margin-right: 20px;
+        margin-left: 20px;
+        h2 {
+            margin-bottom: 15px;
+        }  
+    
+        .item {
+            max-width: 300px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+    
+        #loewe{
+            position: absolute;
+            bottom: -4%;
+            left: 0%;
+            max-width: 18%;
+            min-width: 250px;
+            z-index: -1;
+        }
     }
 
-    #loewe{
-        position: absolute;
-        bottom: -4%;
-        left: 0%;
-        max-width: 18%;
-        min-width: 250px;
-        z-index: -1;
-    }
 }
 
 #container4 {
     min-height: 1100px;
     background: $colorGrey 0% 0% no-repeat padding-box;
     padding-top: 50px;
+    padding-bottom: 50px;
 
     .item{
         margin-left: 25px;
@@ -182,7 +202,7 @@
         min-height: 610px;
 
         #buchkaufen {
-            bottom: -40%;
+            bottom: -30%;
         }
     }
     #container3 {
@@ -219,10 +239,13 @@
     }
     #container2 {
         min-height: 550px;
-
+        padding-top: 125px;
         #buchkaufen {
-            bottom: -55%;
+            bottom: -48%;
         }
+    }
+    #container3 {
+        padding-top: 125px;
     }
     #container4 {
         min-height: 1900px;
@@ -241,11 +264,11 @@
         min-height: 570px;
 
         #buchkaufen {
-            bottom: -50%;
+            bottom: -42%;
         }
     }
     #container3 {
-        min-height: 900px;
+        min-height: 950px;
     }
     #container4 {
         min-height: 2000px;
@@ -259,9 +282,10 @@
     }
     #container2 {
         min-height: 650px;
+        padding-top: 200px;
 
         #buchkaufen {
-            bottom: -46%;
+            bottom: -43%;
         }
     }
 }
@@ -272,10 +296,15 @@
     }
     #container2 {
         min-height: 690px;
-
+        padding-top: 250px;
         #buchkaufen {
-            bottom: -41%;
+            bottom: -38%;
         }
+    }
+    #container3 {
+        padding-top: 175px;
+        min-height: 1050px;
+
     }
     #container4 {
         min-height: 2100px;
