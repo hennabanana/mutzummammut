@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-/*import styles from '../styles/slide.module.scss'*/
+import styles from '../styles/slide.module.scss'
 
 const Slide = dynamic(
   () => import("react-slideshow-image").then(slideshow => slideshow.Slide),
