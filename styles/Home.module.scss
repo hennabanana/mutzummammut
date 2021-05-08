@@ -1,5 +1,8 @@
 @import 'constants.scss';
 
+.indicators {
+    padding-left: 0 !important;
+  }
 .row {
     display: flex;
     justify-content: center;
@@ -195,8 +198,8 @@
 
 @media (max-width: 1050px) {
     #container1 {
-        min-height: 660px;
-        max-height: 680px;
+        min-height: 730px;
+        max-height: 750px;
     }
     #container2 {
         min-height: 610px;
@@ -215,8 +218,8 @@
 
 @media (max-width: 700px) {
     #container1 {
-        min-height: 530px;
-        max-height: 560px;
+        min-height: 690px;
+        max-height: 720px;
     }
     #container2 {
         min-height: 510px;
@@ -234,8 +237,8 @@
 }
 @media (max-width: 600px) {
     #container1 {
-        min-height: 490px;
-        max-height: 510px;
+        min-height: 600px;
+        max-height: 620px;
     }
     #container2 {
         min-height: 550px;
@@ -257,8 +260,8 @@
 
 @media (max-width: 500px) {
     #container1 {
-        min-height: 370px;
-        max-height: 450px;
+        min-height: 600px;
+        max-height: 620px;
     }
     #container2 {
         min-height: 570px;
@@ -277,8 +280,8 @@
 
 @media (max-width: 410px) {
     #container1 {
-        min-height: 310px;
-        max-height: 400px;
+        min-height: 560px;
+        max-height: 570px;
     }
     #container2 {
         min-height: 650px;
@@ -291,8 +294,8 @@
 }
 @media (max-width: 330px) {
     #container1 {
-        min-height: 290px;
-        max-height: 350px;
+        min-height: 560px;
+        max-height: 565px;
     }
     #container2 {
         min-height: 690px;

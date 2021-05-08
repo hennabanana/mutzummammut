@@ -8,7 +8,8 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 400px;
+    background-position: center;
+    height: 533px;
   }
   
   .text {
@@ -18,3 +19,6 @@
     text-align: center;
   }
   
+  .indicators {
+    padding-left: 0 !important;
+  }

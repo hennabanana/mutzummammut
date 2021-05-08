@@ -8,9 +8,13 @@ const Slide = dynamic(
 );
 
 const slideImages = [
-  "/intro.png",
-  "/intro.png",
-  "/intro.png",
+  "/intro_1.png",
+  "/intro_2.png",
+  "/intro_3.png",
+  "/intro_4.png",
+  "/intro_5.png",
+  "/intro_6.png",
+  "/intro_7.png",
 ];
 
 const properties = {
@@ -47,6 +51,34 @@ const Slideshow = () => {
           <div
             className={styles.image}
             style={{ backgroundImage: `url(${slideImages[2]})` }}
+          >
+          </div>
+        </div>
+        <div className={styles.eachslide}>
+          <div
+            className={styles.image}
+            style={{ backgroundImage: `url(${slideImages[3]})` }}
+          >
+          </div>
+        </div>
+        <div className={styles.eachslide}>
+          <div
+            className={styles.image}
+            style={{ backgroundImage: `url(${slideImages[4]})` }}
+          >
+          </div>
+        </div>
+        <div className={styles.eachslide}>
+          <div
+            className={styles.image}
+            style={{ backgroundImage: `url(${slideImages[5]})` }}
+          >
+          </div>
+        </div>
+        <div className={styles.eachslide}>
+          <div
+            className={styles.image}
+            style={{ backgroundImage: `url(${slideImages[6]})` }}
           >
           </div>
         </div>

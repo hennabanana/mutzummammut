@@ -50,7 +50,7 @@ export default function Home() {
             Begleite die tierischen Protagonist*innen auf ihren wahnwitzigen Abenteuern. Mit 
             Badewanne auf hoher See oder auf einen Abstecher in die Eiszeit. Mit großer Portion 
             Witz, Herz und natürlich…<br></br> Mut zum Mammut.</p>
-            <h3>Ein Vorlesebuch für alle.</h3>
+            <p>Ein Vorlesebuch für alle.</p>
           <p>Insbesondere Kinder<br></br>zwischen 4 und 8 Jahren</p>
           </div>
         <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße">
@@ -94,30 +94,30 @@ export default function Home() {
           <div className={styles.row}>
           <div className={styles.item}>
           <img
-              src="/buchkaufen.png"
+              src="/Fiona.png"
               alt="Buch Kaufen"
-              height="300"
+              height="400"
               width="300"
             />
           <p><b>Fiona</b><br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
           <div className={styles.item}>
           <img
-              src="/buchkaufen.png"
+              src="/Leonie.png"
               alt="Buch Kaufen"
-              height="300"
+              height="400"
               width="300"
             />
           <p><b>Leonie</b><br></br> arbeitet als Bildungsreferentin und ist Fan von Popkultur, Postkarten schreiben und aalglatten Alliterationen.</p>
           </div>
           <div className={styles.item}>
           <img
-              src="/buchkaufen.png"
+              src="/Sari.png"
               alt="Buch Kaufen"
-              height="300"
+              height="400"
               width="300"
             />
-          <p><b>Sara-Lena</b><br></br> erarbeitet als Art Direktorin mit Illustratoren Magazine und andere schöne Drucksachen. Mut zum Mammut hat ihren Mut zu eigenen Illustrationen entfacht. </p>
+          <p><b>Sara-Lena</b><br></br> erarbeitet als Art Direktorin mit Illustratoren Magazine. Mut zum Mammut hat ihren Mut zu eigenen Illustrationen entfacht.</p>
           </div>
         </div>
         <div id={styles.text}>

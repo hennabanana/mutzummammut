@@ -15,7 +15,7 @@ function Impressum() {
         </Head>
   
         <main>
-          <div id={styles.container1} >
+          <div id={styles.container1} className={styles.impressum_content} >
             <Link href="/">
             <div id={styles.title}>
             <p>Impressum</p>
