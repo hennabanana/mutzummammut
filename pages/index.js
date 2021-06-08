@@ -95,7 +95,7 @@ export default function Home() {
           <div className={styles.item}>
           <img
               src="/fiona.png"
-              alt="Buch Kaufen"
+              alt="fiona"
               height="300"
               width="300"
             />
@@ -104,7 +104,7 @@ export default function Home() {
           <div className={styles.item}>
           <img
               src="/leonie.png"
-              alt="Buch Kaufen"
+              alt="leonie"
               height="300"
               width="300"
             />
@@ -113,7 +113,7 @@ export default function Home() {
           <div className={styles.item}>
           <img
               src="/sari.png"
-              alt="Buch Kaufen"
+              alt="sari"
               height="300"
               width="300"
             />
