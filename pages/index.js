@@ -94,27 +94,27 @@ export default function Home() {
           <div className={styles.row}>
           <div className={styles.item}>
           <img
-              src="/Fiona.png"
+              src="/fiona.png"
               alt="Buch Kaufen"
-              height="400"
+              height="300"
               width="300"
             />
           <p><b>Fiona</b><br></br> Wenn sie nicht Gedichte dichtet, schreibt sie Lieder, organisiert kulturelle Veranstaltungen oder sitzt auf dem Rennrad.</p>
           </div>
           <div className={styles.item}>
           <img
-              src="/Leonie.png"
+              src="/leonie.png"
               alt="Buch Kaufen"
-              height="400"
+              height="300"
               width="300"
             />
           <p><b>Leonie</b><br></br> arbeitet als Bildungsreferentin und ist Fan von Popkultur, Postkarten schreiben und aalglatten Alliterationen.</p>
           </div>
           <div className={styles.item}>
           <img
-              src="/Sari.png"
+              src="/sari.png"
               alt="Buch Kaufen"
-              height="400"
+              height="300"
               width="300"
             />
           <p><b>Sara-Lena</b><br></br> erarbeitet als Art Direktorin mit Illustratoren Magazine. Mut zum Mammut hat ihren Mut zu eigenen Illustrationen entfacht.</p>
