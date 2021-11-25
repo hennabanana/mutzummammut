@@ -72,10 +72,10 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
           </div>
           <div className={styles.row}>
           <div className={styles.item}>
-            <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße"><h2>Kontakt</h2></a>
+            <a href="mailto:hallo@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße"><h2>Kontakt</h2></a>
           </div>
           <div className={styles.item}>
-            <a href="https://instagram.com/mut_zum_mammut?igshid=wa8eacrsx2gn"><h2>Instagram</h2></a>
+            <a href="https://instagram.com/mut_zum_mammut/"><h2>Instagram</h2></a>
           </div>
           </div>
           <div className={styles.row}  id={styles.footer}
@@ -89,9 +89,6 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
         </Link>
         </div>
         <div className={styles.item}>
-        <Link href="/datenschutz">
-          <p>Datenschutz</p>
-          </Link>
         </div>
           </div>
           </div>

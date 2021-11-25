@@ -53,7 +53,7 @@ export default function Home() {
             <p>Ein Vorlesebuch für alle.</p>
           <p>Insbesondere Kinder<br></br>zwischen 4 und 8 Jahren</p>
           </div>
-        <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße">
+        <a href="mailto:hallo@mutzummammut.de">
         <img
         id={styles.buchkaufen}
               src="/buchkaufen.png"
@@ -71,7 +71,7 @@ export default function Home() {
           <div className={styles.row}>
           <div className={styles.item}>
             <h2>1</h2>
-            <p>Nimm Kontakt mit uns auf und schreibe uns eine E-Mail. Einfach <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße">hier</a> klicken!</p>
+            <p>Nimm Kontakt mit uns auf und schreibe uns eine E-Mail. Einfach <a href="mailto:hallo@mutzummammut.de">hier</a> klicken!</p>
           </div>
           <div className={styles.item}>
           <h2>2</h2>
@@ -142,10 +142,10 @@ Als leidenschaftliche Supporterin der ersten Stunde und passender Weise auch aus
         </div>
         <div className={styles.row}>
         <div className={styles.item}>
-          <a href="mailto:buch@mutzummammut.de?subject=Mut%20zum%20Mammut%20kaufen&amp;body=Hallo%20ihr Drei,%0D%0A%0D%0Aich%20würde%20gerne%20_%20Bücher%20kaufen.%0D%0A%0D%0AViele Grüße"><h2>Kontakt</h2></a>
+          <a href="mailto:hallo@mutzummammut.de"><h2>Kontakt</h2></a>
         </div>
         <div className={styles.item}>
-          <a href="https://instagram.com/mut_zum_mammut?igshid=wa8eacrsx2gn" target="_blank" rel="noopener noreferrer"><h2>Instagram</h2></a>
+          <a href="https://instagram.com/mut_zum_mammut/" target="_blank" rel="noopener noreferrer"><h2>Instagram</h2></a>
         </div>
         </div>
         <div className={styles.row}  id={styles.footer}
