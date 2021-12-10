@@ -21,7 +21,7 @@ export default function Home() {
           content="Acht charmante Gedichte, die mit einem Augenzwinkern die kleinen und größeren Themen des Lebens behandeln. Ein Vorlesebuch für alle! Insbesondere Kinder zwischen 4 und 8 Jahren"
         />
 
-        <link rel="canonical" href="https://mut-zum-mammut.de" />
+        <link rel="canonical" href="/" />
       </Head>
 
       <main>

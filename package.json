@@ -14,5 +14,8 @@
     "react-slideshow-image": "^3.4.6",
     "sass": "^1.32.8",
     "sitemap": "^7.0.0"
+  },
+  "devDependencies": {
+    "next-secure-headers": "^2.2.0"
   }
 }
