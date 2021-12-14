@@ -107,8 +107,8 @@
     max-width: 1440px;
     margin: auto;
     a {
-        text-decoration: revert;
-        color: colorDark;
+        text-decoration: underline;
+        color: $colorDark;
     }
     
     #inner_container3 {
